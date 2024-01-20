@@ -4,7 +4,7 @@ import { css } from "styled-components";
 // Breaks for media query
 const customBreakpoints = [
   { label: "mobile", breakPoint: "0px" },
-  { label: "lowTablet", breakPoint: "480px" },
+  { label: "smallTablet", breakPoint: "480px" },
   { label: "tablet", breakPoint: "767px" },
   { label: "laptop", breakPoint: "1024px" },
   { label: "desktop", breakPoint: "1280px" },

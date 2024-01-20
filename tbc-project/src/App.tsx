@@ -1,16 +1,15 @@
+// Import styles
 import GlobalStyles from "./GlobalStyles";
+// Import components
+import { NavBar } from "./components/header/NavBar";
 
+// App 
 function App() {
-  document.addEventListener("DOMContentLoaded", function () {
-    const realWidth = window.screen.width * window.devicePixelRatio;
-    const realHeight = window.screen.height * window.devicePixelRatio;
-    console.log(`Your screen resolution is: ${realWidth} x ${realHeight}`);
-  });
   return (
-    <div>
-      <GlobalStyles />
-      asd
-    </div>
+    <>
+      <NavBar />
+      <GlobalStyles />;
+    </>
   );
 }
 
