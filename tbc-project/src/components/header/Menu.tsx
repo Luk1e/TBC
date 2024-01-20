@@ -1,6 +1,6 @@
 // Import styles
 import styled from "styled-components";
-import { MenuSVG } from "../../assets/MenuSVG";
+import { MenuSVG } from "../../assets/svg/MenuSVG";
 // Import hooks
 import { useState } from "react";
 import { useLocation } from "react-router-dom";

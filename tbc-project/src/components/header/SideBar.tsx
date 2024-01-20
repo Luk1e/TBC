@@ -1,6 +1,6 @@
 // Import styles
 import styled from "styled-components";
-import { CloseSVG } from "../../assets/CloseSVG";
+import { CloseSVG } from "../../assets/svg/CloseSVG";
 // Import hooks
 import { useLocation } from "react-router-dom";
 

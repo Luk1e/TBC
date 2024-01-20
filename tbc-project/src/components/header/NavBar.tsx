@@ -1,6 +1,6 @@
 // Import styles
 import styled from "styled-components";
-import { ITacademySVG } from "../../assets/ITacademySVG";
+import { ITacademySVG } from "../../assets/svg/ITacademySVG";
 import { respondTo } from "../../utils/styles/_respondTo";
 // Import components
 import { Menu } from "./Menu";
