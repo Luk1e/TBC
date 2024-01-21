@@ -2,15 +2,15 @@
 import styled from "styled-components";
 import { respondTo } from "../../../utils/styles/_respondTo";
 // import images
-import AdvancePythonImage from "../../../assets/images/advanced-python.webp";
-import IntroToPythonImage from "../../../assets/images/intro-to-python.webp";
-import ReactImage from "../../../assets/images/react.webp";
-import TOTImage from "../../../assets/images/tot.webp";
-import IosDevelopmentImage from "../../../assets/images/ios-development.webp";
-import AdvanceCyberSecurityImage from "../../../assets/images/advanced-cybersecurity.webp";
-import BlockChainImage from "../../../assets/images/blockchain.webp";
-import DevopsImage from "../../../assets/images/devops.webp";
-import InformationSecurityImage from "../../../assets/images/information-securit-governance.webp";
+import AdvancePythonImage from "../../../assets/images/courses/advanced-python.webp";
+import IntroToPythonImage from "../../../assets/images/courses/intro-to-python.webp";
+import ReactImage from "../../../assets/images/courses/react.webp";
+import TOTImage from "../../../assets/images/courses/tot.webp";
+import IosDevelopmentImage from "../../../assets/images/courses/ios-development.webp";
+import AdvanceCyberSecurityImage from "../../../assets/images/courses/advanced-cybersecurity.webp";
+import BlockChainImage from "../../../assets/images/courses/blockchain.webp";
+import DevopsImage from "../../../assets/images/courses/devops.webp";
+import InformationSecurityImage from "../../../assets/images/courses/information-securit-governance.webp";
 
 // import components
 import { GridItem } from "./GridItem";

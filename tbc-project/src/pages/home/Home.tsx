@@ -3,11 +3,11 @@ import styled from "styled-components";
 // import components
 import { Banner } from "./components/Banner";
 import { Courses } from "./components/Courses";
+import { Carousel } from "./components/Carousel";
 import { TextComponent } from "./components/TextComponent";
 
-const Container = styled.div`
-  background-color: red;
-`;
+// styles
+const Container = styled.div``;
 
 // export home page
 export const Home = () => {
@@ -16,6 +16,7 @@ export const Home = () => {
       <Banner />
       <TextComponent />
       <Courses />
+      <Carousel />
     </Container>
   );
 };
