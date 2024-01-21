@@ -2,7 +2,7 @@ interface CloseSVGProps {
   toggle: () => void;
 }
 
-// CloseSVG
+// export close svg
 export const CloseSVG: React.FC<CloseSVGProps> = ({ toggle }) => {
   return (
     <svg

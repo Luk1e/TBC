@@ -1,14 +1,14 @@
-// Import styles
+// import styles
 import styled from "styled-components";
 import { MenuSVG } from "../../assets/svg/MenuSVG";
-// Import hooks
+// import hooks
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useWindowDimensions } from "../../utils/hooks/useWindowDimensions";
-// Import components
+// import components
 import { SideBar } from "./SideBar";
 
-// Styles
+// styles
 const Container = styled.div`
   display: flex;
   align-items: center;
@@ -40,13 +40,13 @@ const Link = styled.a`
   }
 `;
 
-// Menu
+// export menu
 export const Menu = () => {
-  // Get window dimensions
+  // get window dimensions
   const { width } = useWindowDimensions();
-  // Get windows location
+  // get windows location
   const location = useLocation();
-  // Hook for opening&closing sidebar
+  // hook for opening&closing sidebar
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const toggle = () => setIsOpen(!isOpen);

@@ -1,11 +1,11 @@
-// Import styles
+// import styles
 import styled from "styled-components";
 import { ITacademySVG } from "../../assets/svg/ITacademySVG";
 import { respondTo } from "../../utils/styles/_respondTo";
-// Import components
+// import components
 import { Menu } from "./Menu";
 
-// Styles
+// styles
 const NavContainer = styled.div`
   margin: 0;
   outline: 0;
@@ -57,14 +57,14 @@ const Container = styled.div`
 `;
 
 const InnerContainer = styled.div`
-  width: 80%;
+  width: 90%;
 
   ${respondTo.desktop`
-    width: 60%;
+    width: 70%;
   `}
 
   ${respondTo.tv`
-    width: 400px;
+    width: 60%;
   `}
   display: flex;
   align-items: center;
@@ -77,7 +77,7 @@ const InnerContainer = styled.div`
   }
 `;
 
-// Navbar
+// export navbar
 export const NavBar = () => {
   return (
     <NavContainer>

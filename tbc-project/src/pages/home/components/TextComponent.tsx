@@ -1,8 +1,8 @@
-// Import styles
+// import styles
 import styled from "styled-components";
 import { respondTo } from "../../../utils/styles/_respondTo";
 
-// Styles
+// styles
 const Container = styled.div`
   display: flex;
   align-items: center;
@@ -11,13 +11,13 @@ const Container = styled.div`
 `;
 
 const TextContainer = styled.div`
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   margin-top: 3rem;
 
   ${respondTo.desktop`
-    width: 60%;
+    width: 70%;
   `}
 
   ${respondTo.tv`
@@ -79,7 +79,7 @@ const Link = styled.a`
   }
 `;
 
-// Text component
+// export text component
 export const TextComponent = () => {
   return (
     <Container>

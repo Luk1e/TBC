@@ -1,4 +1,4 @@
-// IT academy SVG
+// export IT academy svg
 export const ITacademySVG = () => {
   return (
     <svg

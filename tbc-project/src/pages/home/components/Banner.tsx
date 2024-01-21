@@ -1,9 +1,9 @@
-// Import styles
+// import styles
 import styled from "styled-components";
 import { respondTo } from "../../../utils/styles/_respondTo";
-import backgroundImage from "../../../assets/images/background-iamge.webp";
+import backgroundImage from "../../../assets/images/background-image.webp";
 
-// Styles
+// styles
 const Container = styled.div`
   height: 350px;
 
@@ -21,11 +21,11 @@ const Container = styled.div`
 `;
 
 const TextContainer = styled.div`
-  width: 80%;
+  width: 90%;
   margin-bottom: 2rem;
 
   ${respondTo.desktop`
-    width: 60%;
+    width: 70%;
   `}
 
   ${respondTo.tv`
@@ -33,7 +33,7 @@ const TextContainer = styled.div`
   `}
 `;
 
-const Text = styled.p`
+const Text = styled.h1`
   color: rgb(244, 244, 244);
   font-weight: 900;
   font-size: 2.8rem;
@@ -43,7 +43,7 @@ const Text = styled.p`
   `}
 `;
 
-// Banner
+// export banner
 export const Banner = () => {
   return (
     <Container>

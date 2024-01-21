@@ -1,14 +1,14 @@
-// Import styles
+// import styles
 import styled from "styled-components";
 import { CloseSVG } from "../../assets/svg/CloseSVG";
-// Import hooks
+// import hooks
 import { useLocation } from "react-router-dom";
 
 interface SidebarProps {
   toggle: () => void;
 }
 
-// Styles
+// styles
 const Container = styled.div`
   top: 0;
   right: 0;
@@ -49,9 +49,9 @@ const Link = styled.a`
   }
 `;
 
-// SideBar
+// sideBar
 export const SideBar: React.FC<SidebarProps> = ({ toggle }) => {
-  // Get windows location
+  // get windows location
   const location = useLocation();
   return (
     <Container>

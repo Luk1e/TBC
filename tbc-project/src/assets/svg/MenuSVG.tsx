@@ -2,7 +2,7 @@ interface MenuSVGProps {
   toggle: () => void;
 }
 
-// MenuSVG
+// export menu svg
 export const MenuSVG: React.FC<MenuSVGProps> = ({ toggle }) => {
   return (
     <svg
