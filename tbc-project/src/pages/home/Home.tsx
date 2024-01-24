@@ -5,6 +5,7 @@ import { Banner } from "./components/Banner";
 import { Courses } from "./components/Courses";
 import { Carousel } from "./components/Carousel";
 import { TextComponent } from "./components/TextComponent";
+import { QuestionsComponent } from "./components/QuestionsComponent";
 
 // styles
 const Container = styled.div``;
@@ -17,6 +18,7 @@ export const Home = () => {
       <TextComponent />
       <Courses />
       <Carousel />
+      <QuestionsComponent />
     </Container>
   );
 };

@@ -33,6 +33,7 @@ const Container = styled.div`
   margin: 0;
   outline: 0;
   padding: 0;
+  z-index: 1000;
 
   height: 84px;
   width: 100vw;

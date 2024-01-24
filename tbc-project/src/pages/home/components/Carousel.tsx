@@ -10,7 +10,7 @@ import SpectreImage from "../../../assets/images/partners/spectre.webp";
 import TibiciLizingi from "../../../assets/images/partners/tibisi-lizingi.webp";
 import MultisagadasaxadoSistemebi from "../../../assets/images/partners/multisagadasaxado-sistemebi.webp";
 // import hooks
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 // styles
 const Container = styled.div`
@@ -168,7 +168,7 @@ export const Carousel = () => {
     MultisagadasaxadoSistemebi,
   ];
 
-  const [currentSlide, setCurrentSlide] = useState(2);
+  const [currentSlide, setCurrentSlide] = useState(0);
   // function to show next slide
   const nextSlide = () => {
     setCurrentSlide(currentSlide + 1 > 2 ? 0 : currentSlide + 1);
@@ -176,6 +176,18 @@ export const Carousel = () => {
   // function to show previous slide
   const previousSlide = () =>
     setCurrentSlide(currentSlide - 1 < 0 ? 2 : currentSlide - 1);
+
+  const autoSwitchSlide = () => {
+    nextSlide();
+  };
+
+  useEffect(() => {
+    // Set a timeout to automatically switch to the next slide after 4000 milliseconds (4 seconds)
+    const timeoutId = setTimeout(autoSwitchSlide, 4000);
+
+    // Clean up the timeout when the component unmounts or when the current slide changes
+    return () => clearTimeout(timeoutId);
+  }, [currentSlide]);
 
   return (
     <Container>
