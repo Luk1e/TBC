@@ -79,6 +79,7 @@ const ImageContainer = styled.div`
 `;
 
 const DuoImageContainer = styled.div`
+  display: flex;
   margin-left: auto;
   grid-column: 3 / span 1;
 
