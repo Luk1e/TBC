@@ -273,6 +273,7 @@ Error generating stack: `+o.message+`
     grid-template-columns: 1fr 1fr 1fr; 
   `}
 `,Qh=I.div`
+  display: flex;
   margin-left: auto;
   grid-column: 3 / span 1;
 
