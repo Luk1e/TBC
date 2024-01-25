@@ -11,7 +11,9 @@ const GlobalStyles = createGlobalStyle`
 
    #root{
        margin:0 auto;
+       overflow-x: hidden;
    }
 `;
 
+// export global styles
 export default GlobalStyles;
